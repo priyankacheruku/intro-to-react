@@ -1,27 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+
+// import './App.css';
+import './Style.css';
+
 import BasicCss from './BasicCss';
+import PropsState from './PropsState';
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-
-        </p>
-        <h1>Hello</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      <BasicCss></BasicCss>
+      <BasicCss ></BasicCss>
+      <PropsState info="sent from parent to child prop"></PropsState>
     </div>
   );
 }
