@@ -4,10 +4,10 @@ class PropsState extends React.Component{
 
     constructor(props){
         super(props)
-        console.log(props)        
+        // console.log(props)        
         this.state.info = props.info
     }
-    state={
+    state = {
         info :"",
         current:true
     }
@@ -15,10 +15,12 @@ class PropsState extends React.Component{
         this.setState({
             current : !this.state.current
         }
+
         )
+
     }
     render(){
-        return <div class="box">
+        return <div className="box">
             <p>{this.state.info }</p>
             <button onClick={() => this.ToggleButton()}>toggle</button>
             {this.state.current && "press toggle"}

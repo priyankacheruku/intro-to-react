@@ -3,6 +3,8 @@
     /* height: 300px; */
     width: 200px;
     border: grey 1px solid;
+    margin: 5px;
+    
 }
 .font-size{
     font-size:30px;

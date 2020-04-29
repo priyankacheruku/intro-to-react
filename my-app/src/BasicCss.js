@@ -7,13 +7,13 @@ render(){
         colourRed:"red",
         colourBlue:"blue"
     }
-    return <div class="box">
+    return <div className="box">
         the Component
 
         <p style={{color:colour.colourBlue,width:"100px"}}>using const css</p> 
         <p style ={{color:"red"}}>inline css</p>
         <span>
-            <p class="font-size">external class css(font-size)</p>
+            <p className="font-size">external class css(font-size)</p>
             <span id="background-color" >External id css(background)</span>
         </span>
         </div>
