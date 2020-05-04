@@ -1,4 +1,5 @@
 import React from 'react';
+
 class LifeCycle extends React.Component {
 
     constructor(props){
@@ -53,6 +54,7 @@ class LifeCycle extends React.Component {
              <input type="text" value={this.state.value} onChange={this.handleChange}  size="15"></input>
              <br></br>
              <span>Your entered is <h5>{this.state.value}</h5></span>
+
          </div>
      }
 }
