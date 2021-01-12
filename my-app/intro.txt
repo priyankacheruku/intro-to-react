@@ -4,6 +4,20 @@ check the node version and npm version
 $node -v
 $npm -v
 
+initialize the package.json file
+$ npm init --yes
+
+install create react app
+$npm install -g create-react-app
+
+check the version
+$ create-react-app --version
+
+create a app
+$ create-react-app my-app
 
 start the project inside app
 my-app$ npm start
+
+
+

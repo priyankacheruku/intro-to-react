@@ -1,0 +1,24 @@
+REDUX
+install redux using npm
+$ npm install redux
+
+check the dependency in package.json
+
+Three concepts of redux
+Action  --> what happend(only way through change the state)
+reducer --> carries out 'state' trasition depending on 'action'
+            (to create new 'state' using the existing 'state')
+state   --> stores the data (tree structure read-only )
+
+##################     
+The flow of redux   
+
+    dispatch()                     access
+app   ----->   action ---> reducer  ---> state(Redux store)
+
+Note: app is subscribe to state
+
+
+##############
+devtools
+https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd/related?hl=en
