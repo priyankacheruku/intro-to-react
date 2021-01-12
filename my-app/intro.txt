@@ -4,6 +4,6 @@ check the node version and npm version
 $node -v
 $npm -v
 
-$npm init -y 
-install npm 
-npm install -g npm
+
+start the project inside app
+my-app$ npm start
