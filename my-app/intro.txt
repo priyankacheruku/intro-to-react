@@ -1,0 +1,9 @@
+# Intro to reactjs library
+
+check the node version and npm version
+$node -v
+$npm -v
+
+$npm init -y 
+install npm 
+npm install -g npm
